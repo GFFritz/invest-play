@@ -1,0 +1,135 @@
+/****************
+General
+*****************/
+
+body {
+  background-color: #000;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mobile-show {
+  display: block;
+}
+
+.container {
+  max-width: 1608px;
+}
+
+@media (max-width: 1023px) {
+  .container {
+    max-width: 328px;
+  }
+
+  .desktop-show {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .desktop-show {
+    display: block;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .desktop-show {
+    display: block;
+  }
+
+  .mobile-show {
+  display: none;
+  }
+}
+
+/****************
+Header
+*****************/
+.hero {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btn-alt {
+  border: 2px solid #FFD500;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  height: 40px;
+  width: 180px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: all .3s;
+  font-size: 12px;
+}
+
+.btn-alt:hover {
+  background-color: #222222;
+  color: #fff;
+}
+
+.btn-main {
+  background: #3CC84B 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  color: #000;
+  height: 40px;
+  width: 180px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: all .3s;
+  font-size: 12px;
+}
+
+.btn-main:hover {
+  filter: saturate(1.2);
+  color: #000;
+}
+
+.btn-alt-2 {
+  background: #FFD500 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  color: #000;
+  height: 50px;
+  width: 280px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+
+.btn-alt-2:hover {
+  background-color: #e4c00e;
+  color: #000;
+}
+
+.cta-content h1 {
+  color: #FFD500;
+  font-size: 24px;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.cta-content h2 {
+  letter-spacing: 2px;
+  font-size: 17px;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+.cta-content div {
+  color: #FFFFFF;
+  font-size: 12px;
+}
