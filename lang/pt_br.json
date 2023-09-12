@@ -2,6 +2,30 @@
   "t-register": "Registrar",
   "t-cta-title": "Seu dinheiro trabalhando",
   "t-cta-subtitle": "por você enquanto joga",
-  "t-cta-content": "Descubra como pessoas estão mudando de vida ao<br>jogar um jogo simples, e o melhor, tudo online, sem sair de casa!",
-  "t-cta-register": "Register-se"
+  "t-cta-content": "Descubra como pessoas estão mudando de vida ao<br>jogar um <span class='hl-text'>jogo simples</span>, e o melhor, tudo online, sem sair de casa!",
+  "t-cta-register": "Register-se",
+
+  "t-games-title": "Jogue os <span class='hl-text'>principais</span><br> jogos do mercado",
+
+  "t-ways-title-md": "Mais de 5 formas",
+  "t-ways-title-lg": "de ganhos",
+  "t-ways-title-sm": "Além de ganhar dinheiro enquanto joga,<br> <span class='hl-text'>Você tem mais formas de lucrar</span> aqui na investplay.",
+  "t-ways-item-1": "Double Cash",
+  "t-ways-item-2": "Bônus diário",
+  "t-ways-item-3": "Bônus Binário",
+  "t-ways-item-4": "indicação direta",
+  "t-ways-item-5": "bônus unilevel",
+  "t-ways-item-6": "Plano de carreira",
+
+  "t-cta-contact-content": "Acesse o grupo do WhatsApp para ter as melhores estratégias, resultados surpreendentes e suporte.",
+  "t-cta-contact-btn": "Acessar Grupo VIP",
+
+  "t-plans-lg": "Ganhe até 15x do valor apostado",
+  "t-plans-sm": "em uma única partida",
+  "t-plans-md": "Pacotes de investimentos:",
+  "t-plans-point": "PONTOS:",
+  "t-plans-final": "RETORNO FINAL:",
+  "t-plans-cta": "Baixe o plano de negócios",
+
+  "t-footer-copy": "Todos os direitos reservados."
 }

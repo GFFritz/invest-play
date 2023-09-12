@@ -1,3 +1,31 @@
 {
-  "t-register": "Resgister"
+  "t-register": "Register",
+  "t-cta-title": "Your money working",
+  "t-cta-subtitle": "for you while you play",
+  "t-cta-content": "Discover how people are changing their lives by<br>playing a <span class='hl-text'>simple game</span>, and best of all, all online, without leaving home!",
+  "t-cta-register": "Register",
+
+  "t-games-title": "Play the <span class='hl-text'>top</span><br> games on the market",
+
+  "t-ways-title-md": "More than 5 ways",
+  "t-ways-title-lg": "of earnings",
+  "t-ways-title-sm": "In addition to earning money while playing,<br> <span class='hl-text'>You have more ways to profit</span> here at investplay.",
+  "t-ways-item-1": "Double Cash",
+  "t-ways-item-2": "Daily Bonus",
+  "t-ways-item-3": "Binary Bonus",
+  "t-ways-item-4": "direct indication",
+  "t-ways-item-5": "unilevel bonus",
+  "t-ways-item-6": "Career plan",
+
+  "t-cta-contact-content": "Access the WhatsApp group for the best strategies, surprising results and support.",
+  "t-cta-contact-btn": "Access VIP Group",
+
+  "t-plans-lg": "Win up to 15x the amount you bet",
+  "t-plans-sm": "in a single match",
+  "t-plans-md": "Pinvestment grants:",
+  "t-plans-point": "POINTS:",
+  "t-plans-final": "FINAL RETURN:",
+  "t-plans-cta": "Download the business plan",
+
+  "t-footer-copy": "All rights reserved."
 }

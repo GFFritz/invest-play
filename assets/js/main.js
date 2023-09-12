@@ -13,7 +13,7 @@ function getLangFile() {
     return langFile;
 }
 
-// Read Json File to translate - TO DO
+// Read Json File to translate
 function readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json");
