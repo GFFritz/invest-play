@@ -1,7 +1,7 @@
 # Porfolio by Gabriel Fritz 
-## Portfolio developed using npm, bootstrap and font-awesome
+## Landingpage developed using npm, bootstrap and font-awesome
 
-- Based on Henrique Sousa layout on Figma 
+- Layout Designed by Brendou Souza
 
 ### Requirements
 - NPM
