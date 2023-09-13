@@ -46,10 +46,6 @@ a, a:hover {
     display: block;
   }
 
-  .container {
-    max-width: 90%;
-  }
-
   .bg-desk {
     background-image: url('../img/bg-section-2.png');
 
@@ -61,6 +57,10 @@ a, a:hover {
     display: block;
   }
 
+  .container {
+    max-width: 90%;
+  }
+
   .mobile-show {
     display: none;
   }
@@ -69,13 +69,22 @@ a, a:hover {
 /****************
 Header
 *****************/
+.nav-menu {
+  width: 90%;
+}
+
 .nav-content {
   color: #FFFFFF;
   font-weight: 600;
+  display: none;
 }
 
 .nav-link:hover {
   color: #cccccc;
+}
+
+.logo-nav {
+  width: 180px;
 }
 
 .hero {
@@ -188,10 +197,6 @@ Header
 }
 
 @media (min-width: 768px) {
-  .cta-header {
-    display: none;
-  }
-
   .cta-content h1 {
     font-size: 38px;
   }
@@ -208,12 +213,6 @@ Header
     width: 322px;
   }
 
-  .cta-coin {
-    right: 42%;
-    top: -11%;
-    display: block;
-  }
-
   .cta-coin img {
     width: 160px;
   }
@@ -226,6 +225,29 @@ Header
 
   .cta-coin-2 img {
     width: 160px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .nav-content {
+    display: block;
+  }
+
+  .cta-header {
+    display: none;
+  }
+
+  .cta-coin {
+    right: 42%;
+    top: -11%;
+    display: block;
+  }
+}
+
+@media (min-width: 1333px) {
+  .nav-menu {
+    width: 75%;
   }
 }
 
@@ -387,7 +409,7 @@ Contact
   }
 
   .contact-container {
-    width: 35%;
+    width: 70%;
   }
 
   .cta-contact-content {
@@ -395,7 +417,7 @@ Contact
   }
 
   .lock-image {
-    width: 35%;
+    width: 200px;
   }
 
   .whatsapp-image {
@@ -405,6 +427,13 @@ Contact
   .cta-contact-btn {
     width: 50%;
     font-size: 16px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .contact-container {
+    width: 35%;
   }
 }
 
