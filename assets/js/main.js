@@ -1,3 +1,4 @@
+
 // Read user system language
 function getLangFile() {
     let language = window.navigator.language;

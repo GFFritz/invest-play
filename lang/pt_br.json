@@ -1,11 +1,17 @@
 {
   "t-register": "Registrar",
+  "t-register-desk": "Registrar",
   "t-cta-title": "Seu dinheiro trabalhando",
   "t-cta-subtitle": "por você enquanto joga",
   "t-cta-content": "Descubra como pessoas estão mudando de vida ao<br>jogar um <span class='hl-text'>jogo simples</span>, e o melhor, tudo online, sem sair de casa!",
   "t-cta-register": "Register-se",
+  "t-cta-title-desk": "Seu dinheiro trabalhando",
+  "t-cta-subtitle-desk": "por você enquanto joga",
+  "t-cta-content-desk": "Descubra como pessoas estão mudando de vida ao<br>jogar um <span class='hl-text'>jogo simples</span>, e o melhor, tudo online, sem sair de casa!",
+  "t-cta-register-desk": "Register-se",
+  "t-cta-register-desk-2": "Register-se",
 
-  "t-games-title": "Jogue os <span class='hl-text'>principais</span><br> jogos do mercado",
+  "t-games-title": "Jogue os <span class='hl-text'>principais</span><br class='mobile-show'> jogos do mercado",
 
   "t-ways-title-md": "Mais de 5 formas",
   "t-ways-title-lg": "de ganhos",

@@ -27,6 +27,10 @@ a, a:hover {
   max-width: 266px;
 }
 
+.bg-desk {
+  background-image: none;
+}
+
 @media (min-width: 266px) {
   .container {
     max-width: 328px;
@@ -41,8 +45,16 @@ a, a:hover {
   .desktop-show {
     display: block;
   }
-}
 
+  .container {
+    max-width: 90%;
+  }
+
+  .bg-desk {
+    background-image: url('../img/bg-section-2.png');
+
+  }
+}
 
 @media (min-width: 768px) {
   .desktop-show {
@@ -50,13 +62,22 @@ a, a:hover {
   }
 
   .mobile-show {
-  display: none;
+    display: none;
   }
 }
 
 /****************
 Header
 *****************/
+.nav-content {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #cccccc;
+}
+
 .hero {
   width: 100vw;
   justify-content: center;
@@ -97,6 +118,10 @@ Header
   font-size: 12px;
 }
 
+.cta-header {
+  display: flex;
+}
+
 .btn-main:hover {
   filter: saturate(1.2);
   color: #000;
@@ -112,7 +137,7 @@ Header
   align-items: center;
   display: flex;
   justify-content: center;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1.3px;
   text-transform: uppercase;
   transition: all .3s;
@@ -137,6 +162,22 @@ Header
   font-weight: 300;
 }
 
+.cta-coin {
+  position: absolute;
+  right: 0%;
+  top: -2%;
+  white-space: nowrap;
+  display: none;
+}
+
+.cta-coin-2 {
+  position: absolute;
+  right: 0%;
+  top: -2%;
+  white-space: nowrap;
+  display: none;
+}
+
 .cta-content div {
   color: #FFFFFF;
   font-size: 12px;
@@ -144,6 +185,48 @@ Header
 
 .hl-text {
   color: #FFD500;
+}
+
+@media (min-width: 768px) {
+  .cta-header {
+    display: none;
+  }
+
+  .cta-content h1 {
+    font-size: 38px;
+  }
+
+  .cta-content h2 {
+    font-size: 24px;
+  }
+
+  .cta-content div {
+    font-size: 17px;
+  }
+
+  .btn-alt-2 {
+    width: 322px;
+  }
+
+  .cta-coin {
+    right: 42%;
+    top: -11%;
+    display: block;
+  }
+
+  .cta-coin img {
+    width: 160px;
+  }
+
+  .cta-coin-2 {
+    right: -7%;
+    top: 100%;
+    display: block;
+  }
+
+  .cta-coin-2 img {
+    width: 160px;
+  }
 }
 
 /****************
@@ -176,6 +259,12 @@ Games
   left: -3%;
   top: 0%;
   white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .games-title {
+    font-size: 28px;
+  }
 }
 
 /****************
@@ -212,8 +301,32 @@ Ways to win
   text-transform: uppercase;
 }
 
+@media (min-width: 1024px) {
+  .ways-items {
+    width: 60%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo-sm {
+    height: 25%;
+  }
+
+  .ways-title-md {
+    font-size: 24px;
+  }
+
+  .ways-title-lg {
+    font-size: 40px;
+  }
+
+  .ways-title-sm {
+    font-size: 22px;
+  }
+}
+
 /****************
-Ways to win
+Contact
 *****************/
 
 .cta-contact {
@@ -251,10 +364,48 @@ Ways to win
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
+  width: 90%;
 }
 
 .cta-contact-btn {
   background-color: #e4c00e;
+}
+
+.lock-image {
+  width: 50%;
+}
+
+.whatsapp-image {
+  width: 20%;
+}
+
+@media (min-width: 768px) {
+  .cta-contact-coin {
+    right: -8%;
+    top: 1%;
+    width: 180px;
+  }
+
+  .contact-container {
+    width: 35%;
+  }
+
+  .cta-contact-content {
+    font-size: 20px;
+  }
+
+  .lock-image {
+    width: 35%;
+  }
+
+  .whatsapp-image {
+    width: 10%;
+  }
+
+  .cta-contact-btn {
+    width: 50%;
+    font-size: 16px;
+  }
 }
 
 /****************
@@ -271,6 +422,10 @@ Plans
   left: -12%;
 }
 
+.plans-coin-2 {
+  position: absolute;
+}
+
 .plans-content {
   text-align: center;
   color: #FFFFFF;
@@ -280,6 +435,10 @@ Plans
   letter-spacing: 1.26px;
   font-size: 18px;
   color: #FFD500;
+}
+
+.plans-item img{
+  max-width: 205px;
 }
 
 .plans-content h3 {
@@ -292,16 +451,6 @@ Plans
 .plans-content h2 {
   font-size: 14px;
   font-weight: 600;
-}
-
-.plans-item {
-  background-color: #ffffff;
-  border: 15px solid #dbdbdb;
-  border-radius: 0 40% 0 40%;
-  padding: 40px 0;
-  z-index: -1; 
-  position: relative;
-  overflow-x: unset;
 }
 
 .plans-item-title {
@@ -356,6 +505,74 @@ Plans
   background-color: #e4c00e;
 }
 
+.slider-items {
+  width: 46%;
+  position: relative;
+}
+
+.owl-prev {
+  position: absolute;
+  color: #FFD500!important;
+  font-size: 100px!important;
+  left: -20%;
+  top: 20%;
+}
+
+.owl-next {
+  position: absolute;
+  color: #FFD500!important;
+  font-size: 100px!important;
+  right: -20%;
+  top: 20%;
+}
+
+@media (min-width: 768px) {
+  .plans-content h1 {
+    font-size: 40px;
+    letter-spacing: 5.8px;
+  }
+
+  .plans-content h3 {
+    font-size: 30px;
+  }
+
+  .plans-content h2 {
+    font-size: 18px;
+  }
+
+  .plans-coin {
+    top: 2%;
+    left: -3%;
+  }
+
+  .plans-coin img {
+    width: 150px;
+  }
+
+  .plans-coin-2 {
+    bottom: -7%;
+    right: -4%;
+  }
+
+  .plans-coin-2 img {
+    width: 200px;
+  }
+
+  .slider-items {
+    width: 50%;
+  }
+
+  .owl-prev {
+    left: -5%;
+    top: 20%;
+  }
+  
+  .owl-next {
+    right: -5%;
+    top: 20%;
+  }
+}
+
 /****************
 Footer
 *****************/
@@ -379,4 +596,10 @@ Footer
 
 .copyright {
   font-weight: 900;
+}
+
+@media (min-width: 768px) {
+  .footer-image {
+    width: 250px;
+  }
 }
