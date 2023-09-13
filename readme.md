@@ -1,4 +1,4 @@
-# Porfolio by Gabriel Fritz 
+# Invest Play LP by Gabriel Fritz 
 ## Landingpage developed using npm, bootstrap and font-awesome
 
 - Layout Designed by Brendou Souza
