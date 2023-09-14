@@ -2,9 +2,20 @@
 General
 *****************/
 
+@font-face {
+  font-family: "Fidena";
+  src: url(../fonts/fidena-webfont.woff);
+}
+
+@font-face {
+ font-family: "Fidena";
+ src: url(../fonts/fidena-bold-webfont.woff);
+ font-weight: 800;
+}
+
 body {
   background-color: #000;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Fidena', sans-serif;
   overflow-x: hidden;
 }
 
@@ -150,6 +161,7 @@ Header
   letter-spacing: 1.3px;
   text-transform: uppercase;
   transition: all .3s;
+  font-size: 1rem;
 }
 
 .btn-alt-2:hover {
@@ -159,14 +171,14 @@ Header
 
 .cta-content h1 {
   color: #FFD500;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 4px;
   font-weight: 400;
 }
 
 .cta-content h2 {
   letter-spacing: 2px;
-  font-size: 17px;
+  font-size: 14px;
   color: #FFFFFF;
   font-weight: 300;
 }
@@ -198,15 +210,15 @@ Header
 
 @media (min-width: 768px) {
   .cta-content h1 {
-    font-size: 38px;
+    font-size: 36px;
   }
 
   .cta-content h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .cta-content div {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .btn-alt-2 {
@@ -285,7 +297,7 @@ Games
 
 @media (min-width: 768px) {
   .games-title {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 
@@ -305,7 +317,7 @@ Ways to win
 .ways-title-lg {
   letter-spacing: 2.42px;
   color: #FFD500;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .ways-title-sm {
@@ -323,6 +335,11 @@ Ways to win
   text-transform: uppercase;
 }
 
+.ways-item-title {
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+
 @media (min-width: 1024px) {
   .ways-items {
     width: 60%;
@@ -335,15 +352,15 @@ Ways to win
   }
 
   .ways-title-md {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .ways-title-lg {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .ways-title-sm {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -413,7 +430,7 @@ Contact
   }
 
   .cta-contact-content {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .lock-image {
@@ -426,7 +443,7 @@ Contact
 
   .cta-contact-btn {
     width: 50%;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -434,6 +451,11 @@ Contact
 @media (min-width: 1024px) {
   .contact-container {
     width: 35%;
+  }
+
+  .cta-contact-btn {
+    width: 80%;
+    font-size: 14px;
   }
 }
 
@@ -462,7 +484,7 @@ Plans
 
 .plans-content h1 {
   letter-spacing: 1.26px;
-  font-size: 18px;
+  font-size: 16px;
   color: #FFD500;
 }
 
@@ -471,19 +493,19 @@ Plans
 }
 
 .plans-content h3 {
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 0.94px;
   font-weight: 100;
   opacity: .8;
 }
 
 .plans-content h2 {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
 }
 
 .plans-item-title {
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 600;
 }
 
@@ -496,7 +518,7 @@ Plans
   margin-top: 10px;
   z-index: 20;
   position: relative;
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 700;
 }
 
@@ -504,7 +526,7 @@ Plans
   background-color: #dadada;
   text-align: end;
   margin-top: 35%;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   font-weight: 700;
   padding: 10px;
@@ -513,7 +535,7 @@ Plans
 
 .plans-item-return {
   text-align: end;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   padding-right: 5px;
   font-weight: 700;
@@ -557,16 +579,16 @@ Plans
 
 @media (min-width: 768px) {
   .plans-content h1 {
-    font-size: 40px;
+    font-size: 38px;
     letter-spacing: 5.8px;
   }
 
   .plans-content h3 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .plans-content h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .plans-coin {
@@ -612,7 +634,7 @@ Footer
 }
 
 .social-links {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .social-links a:hover {
