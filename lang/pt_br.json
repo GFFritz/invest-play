@@ -1,4 +1,6 @@
 {
+  "t-banner-mobile": "<img src='assets/img/bg-mobile.png' class='m-0 p-0 w-100 mobile-show'>",
+  "t-banner-desk": "<img src='assets/img/bg.png' class='m-0 p-0 w-100 desktop-show'>",
   "t-register": "Registrar",
   "t-register-desk": "Registrar",
   "t-cta-title": "Seu dinheiro trabalhando",
